@@ -1,0 +1,289 @@
+
+const Header = ({ headerNav }) =>
+`
+    <header>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-2 col-4 pl-sm-3 pl-0">
+                    <a href="./"><img src="./img/header-logo.png" class="img-fluid header-logo-img"></a>
+                </div>
+                <div class="col-sm-10 col-8">
+
+                    <div class="topbar">
+                        <ul class="pl-0">
+                            <a href="./img/NCC-3QFY24_Results_Concall_Invite.pdf" target="_blank" class="d-sm-none d-block">Con Call</a>
+                            </li>
+
+                            <li class="mr-sm-4"><a href="./img/NCC-3QFY24_Results_Concall_Invite.pdf" target="_blank" class="d-sm-block d-none"><span class="topbar-label-text"><i class="fas fa-phone-alt"></i> </span><br><span>Con Call</span></a>
+                            <a href="./img/Q1-Earning_Call_Friday_August11_2023at4PM.pdf" class="d-sm-none d-block"><i class="fas fa-phone-alt"></i></a>
+                            </li>
+
+
+
+
+
+
+                            <li class="mr-sm-4"><a href="tel:040-23268888" class="d-sm-block d-none"><span class="topbar-label-text">Call Us</span><br><span>(+91) 040-23268888</span></a>
+                            <a href="tel:040-23268888" class="d-sm-none d-block"><i class="fas fa-phone-alt"></i></a>
+                            </li>
+                            <li class="mr-sm-4"><a href="mailto:info@nccltd.in" class="d-sm-block d-none"><span class="topbar-label-text">Email Us</span><br><span>info@nccltd.in</span></a>
+                            <a href="mailto:info@nccltd.in" class="d-sm-none d-block"><i class="fas fa-envelope"></i></a></li>
+                            <li class="mr-sm-4"><a href="mailto:info@nccltd.in" class="d-sm-block d-none"><span class="topbar-label-text">Careers</span><br><span>careers@nccltd.in</span></a>
+                            <a href="mailto:careers@nccltd.in" class="d-sm-none d-block"><i class="fas fa-envelope"></i></a></li>
+
+
+                            
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="menubar">
+            <div class="container">
+            <nav class="navbar navbar-expand-lg pt-0 pb-0 pl-0 pr-0 justify-content-end">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ABOUT US <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="overview.html">Overview</a>
+                                <a class="dropdown-item" href="philosophy.html">Philosophy</a>
+                                <a class="dropdown-item" href="board-of-directors.html">Board of Directors</a>
+                                <a class="dropdown-item" href="presence.html">Presence</a>
+                                <a class="dropdown-item" href="NCCurban.html">NCC Urban</a>
+
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                EXPERTISE <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="buildings-housing.html">Buildings</a>
+                                <a class="dropdown-item" href="water-environment.html">Water & Environment</a>
+                                <a class="dropdown-item" href="roads.html">Transportation</a>
+                                <a class="dropdown-item" href="railways.html">Railways</a>
+                                <a class="dropdown-item" href="irrigation.html">Irrigation</a>
+                                <a class="dropdown-item" href="mining.html">Mining</a>
+                                <a class="dropdown-item" href="electrical.html">Electrical (T&D)</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                COMMITMENT <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="quality-safety.html">Quality & Safety</a>
+                                <a class="dropdown-item" href="social-impact-csr.html">Societal Impact (CSR)</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                INVESTORS <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li class="twolevelmenu"><a class="dropdown-item dropdown-toggle-twolevel" href="#">Financial Information <i class="fas fa-chevron-right"></i></a>
+                                <ul class="submenu dropdown-menu">
+                        		    <li><a class="dropdown-item" href="10-years-performance.html">10 Years Performance</a></li>
+                                    <li><a class="dropdown-item" href="annual-report.html">Annual Report</a></li>
+                                    <li><a class="dropdown-item" href="quarterly-results.html">Quarterly Results</a></li>
+                                    <li><a class="dropdown-item" href="subsidiary-financials.html">Subsidiary Financials</a></li>
+                                    <li><a class="dropdown-item" href="credit-rating.html">Credit Rating</a></li>
+                        		 </ul>
+                                </li>
+                                <li class="twolevelmenu"><a class="dropdown-item dropdown-toggle-twolevel" href="#">Corporate Governance <i class="fas fa-chevron-right"></i></a>
+                                <ul class="submenu dropdown-menu">
+                        		    <li><a class="dropdown-item" href="governance-philosophy.html">Governance Philosophy</a></li>
+                                    <li><a class="dropdown-item" href="board-of-directors.html">Board of Directors</a></li>
+                                    <li><a class="dropdown-item" href="board-committees.html">Board Committees</a></li>
+                                    <li><a class="dropdown-item" href="policies&codes.html">Policies & Codes</a></li>
+                                    <li><a class="dropdown-item" href="independent-directors.html">Independent Directors</a></li>
+                                    <li><a class="dropdown-item" href="secretarial-complaince-report.html">Secretarial Compliance Report</a></li>
+                        		 </ul></li>
+                        		 <li class="twolevelmenu"><a class="dropdown-item dropdown-toggle-twolevel" href="#">Stock Exchange Filings <i class="fas fa-chevron-right"></i></a>
+                                <ul class="submenu dropdown-menu">
+                        		    <li><a class="dropdown-item" href="announcements-disclosures.html">Announcements & Disclosures</a></li>
+                                    <li><a class="dropdown-item" href="shareholding-pattern.html">Shareholding Pattern</a></li>
+                                    <li><a class="dropdown-item" href="stock-exchange-filings-other.html">Other</a></li>
+                        		 </ul></li>
+                        		 <li class="twolevelmenu"><a class="dropdown-item dropdown-toggle-twolevel" href="#">Stakeholders Information <i class="fas fa-chevron-right"></i></a>
+                                <ul class="submenu dropdown-menu">
+                        		    <li><a class="dropdown-item" href="AGM_EGM_Info.html">AGM / EGM Information</a></li>
+                                    <li><a class="dropdown-item" href="stock-information.html">Stock Information</a></li>
+                                    <li><a class="twolevelmenu dropdown-item dropdown-toggle-twolevel" href="#">Dividend <i class="fas fa-chevron-right"></i></a>
+                                        <ul class="submenu dropdown-menu">
+                                		    <li><a class="dropdown-item" href="dividend.html">Dividend History</a></li>
+                                            <li><a class="dropdown-item" href="unpaid-dividends.html">Unpaid Dividends</a></li>
+                                            <li><a class="dropdown-item" href="shares-due-for-transfer-to-IEPF.html">Shares due for Transfer to IEPF</a></li>
+                                		 </ul>
+                                    </li>
+                                    <li><a class="twolevelmenu dropdown-item dropdown-toggle-twolevel" href="communications.html">Communications<i class="fas fa-chevron-right"></i></a>
+                                        <ul class="submenu dropdown-menu">
+                                            <li><a class="dropdown-item" href="reminder-letters-standard.html">Reminder</a></li>
+                                            <li><a class="dropdown-item" href="others.html">Others</a></li>
+                                		 </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="analyst-column.html">Analyst Column</a></li>
+                                    <li><a class="twolevelmenu dropdown-item dropdown-toggle-twolevel" href="#">Contact <i class="fas fa-chevron-right"></i></a>
+                                        <ul class="submenu dropdown-menu">
+                                		    <li><a class="dropdown-item" href="investor-queries-faq.html">Investor Queries & FAQ</a></li>
+                                            <li><a class="dropdown-item" href="grievance-redressal.html">Grievance Redressal</a></li>
+                                		 </ul>
+                                    </li>
+                        		 </ul></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    LANDMARKS <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="timeline.html">Timeline</a>
+                                <a class="dropdown-item" href="innovation-stories.html">Innovation Stories</a>
+                                <a class="dropdown-item" href="key-recognitions.html">Key Recognitions</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                MEDIA <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="in-the-news.html">In the News</a>
+                                <a class="dropdown-item" href="ncc-magazine.html">NCC Magazine</a>
+                                <a class="dropdown-item" href="press-kit.html">Press Kit</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                HUMAN CAPITAL <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="humancapital-overview.html">Overview</a>
+                                <a class="dropdown-item" href="learning-at-ncc.html">Learning@NCC</a>
+                                <a class="dropdown-item" href="life-at-ncc.html">Life@NCC</a>
+                                <a class="dropdown-item" href="opportunities-at-ncc.html">Opportunities</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link" href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        </div>
+    </header>
+`;
+
+const Footer = ({ footerNav }) =>
+`
+<footer>
+        <div class="container">
+            <div class="row footer-border-bottom">
+                <div class="col-sm-4">
+                    <div class="footer-website-info footer-card-wrapper">
+                        <!-- <img src="./img/header-logo.png" class="img-fluid footer-logo mb-3">-->
+                        <p>Committed to a brighter world...</p>
+                        <p>Diligence can accomplish wonders!</p>
+                        <p>For over four decades, we never sidetracked from this belief and have leapfrogged from being just a construction industry player to a billion dollar multifunctional infrastructure conglomerate.</p>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="footer-card-wrapper">
+                        <h4 class="heading">Quick Links</h4>
+                        <ul class="footer-menu-links">
+                            <li><a href="./overview.html">About Us</a></li>
+                            <li><a href="./buildings-housing.html">Expertise</a></li>
+                            <li><a href="./quality-safety.html">Commitment</a></li>
+                            <li><a href="./10-years-performance.html">Investors</a></li>
+                            <li><a href="./timeline.html">Landmarks</a></li>
+                            <li><a href="./in-the-news.html">Media</a></li>
+                            <li><a href="./opportunities-at-ncc.html">Human Capital</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-card-wrapper">
+                        <h4 class="heading">Contacts</h4>
+                        <ul class="footer-contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> <a href="https://goo.gl/maps/i6fZ2botNUpvLPQh7" target="_blank">NCC House, Madhapur Hyderabad - 500081 Telangana, India</a></li>
+                            <li><i class="fas fa-phone-alt"></i> <a href="tel:+91 40 2326 8888">+91 40 2326 8888</a></li>
+                            <li><i class="far fa-envelope"></i> <a href="mailto:info@nccltd.in">info@nccltd.in</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-card-wrapper social-icons-card">
+                    <!--<div>
+                    <video controls loop="true" width="100%">
+                        <source src="./NCC-Film-2019.mp4#t=1" type="video/mp4"> Your browser does not support the video tag.
+                    </video>
+                    </div>-->
+                        <ul class="social-links mt-4">
+                        <li><a href="https://www.facebook.com/ncclimited.official" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/ncclimited.official/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://twitter.com/ncc_limited" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCZiCpQD-mFJzEO6CDMd-WNQ" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://in.linkedin.com/company/nagarjuna-construction-company-limited" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row pt-4 pb-4">
+                <div class="col-sm-6">
+                    <p class="text-white">All rights reserved Copyrights 2023.</p>
+                </div>
+                <div class="col-sm-6 text-sm-right">
+                    <p class="text-white"><a href="./copyright-and-terms.html" class="text-white">Copyright & Terms</a></p>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+    
+    <a href="#headerNav" class="top-sticky-btn"><i class="fas fa-chevron-up"></i></a>
+    
+    
+`;
+
+// Header Script
+$('#headerNav').html([
+  { headerNav:'' }
+].map(Header).join(''));
+
+// Footer Script
+$('#footerNav').html([
+  { footerNav:'' }
+].map(Footer).join(''));
+
+$('.top-sticky-btn').click(function(e)
+		{
+ e.preventDefault(); 
+   $('html, body').animate({ scrollTop: $('#headerNav').offset().top - 180 }); });
+               
+$(document).on('click', '.dropdown-menu', function (e) {
+      e.stopPropagation();
+    });
+    
+    // make it as accordion for smaller screens
+    if ($(window).width() < 992) {
+      $('.dropdown-menu a').click(function(e){
+        //e.preventDefault();
+          if($(this).next('.submenu').length){
+            $(this).next('.submenu').toggle();
+          }
+          
+      });
+    }
+    
+    
